@@ -1,0 +1,5 @@
+deploy:
+  provider: s3
+  access_key_id: "AKIAII7ULO7ETEMEQ2VQ"
+  secret_access_key: "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"
+  bucket: "S3 Bucket"
