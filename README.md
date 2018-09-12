@@ -2,6 +2,9 @@
 ### A guide for wirelessly tracking external sensors all from your living room
 #### Developers: Anthony, Hamza, Matt, Phong, and Sang
 
+### Build Status
+[![Build Status](https://travis-ci.org/hamzakhokhar/iot-web-interface.svg?branch=master)](https://travis-ci.org/hamzakhokhar/iot-web-interface)
+
 ### Project Overview
 We aim to create an IOT (Internet Of Things) architecture that we can use to take information on the hardware’s environment, process it, send it to a cloud server, and display the information in an easy to read way on a web page that can be accessed by any device for ultimate portability and use
 
