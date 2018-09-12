@@ -1,5 +1,5 @@
 # IOT: Convenience For You
-##### Developers: Anthony, Hamza, Matt, Phong, and Sang
+Developers: Anthony, Hamza, Matt, Phong, and Sang
 
 ### Build Status
 [![Build Status](https://travis-ci.org/hamzakhokhar/iot-web-interface.svg?branch=master)](https://travis-ci.org/hamzakhokhar/iot-web-interface)
