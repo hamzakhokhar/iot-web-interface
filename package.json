@@ -2,9 +2,11 @@
   "name": "iot-web-interface",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"No tests\" && exit 0"
+    "test": "echo \"No tests\" && exit 0",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/hamzakhokhar/iot-web-interface/issues"
   },
-  "homepage": "https://github.com/hamzakhokhar/iot-web-interface#readme"
+  "homepage": "https://github.com/hamzakhokhar/iot-web-interface#readme",
+  "devDependencies": {
+    "webpack": "^4.18.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
 }
