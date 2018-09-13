@@ -6,7 +6,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"No tests\" && exit 0",
-    "build": "webpack"
+    "develop": "webpack --mode development --watch",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,9 @@
   },
   "homepage": "https://github.com/hamzakhokhar/iot-web-interface#readme",
   "devDependencies": {
+    "file-loader": "^2.0.0",
+    "jshint": "^2.9.6",
+    "jshint-loader": "^0.8.4",
     "webpack": "^4.18.1",
     "webpack-cli": "^3.1.0"
   },
