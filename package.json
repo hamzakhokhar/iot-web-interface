@@ -9,6 +9,9 @@
     "dev": "webpack --mode development --watch",
     "build": "webpack --mode production"
   },
+  "engines" : {
+    "node" : ">=8.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://hamzakhokhar@github.com/hamzakhokhar/iot-web-interface.git"
