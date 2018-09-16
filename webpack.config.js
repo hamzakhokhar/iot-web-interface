@@ -1,3 +1,5 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin'); //installed via npm
+const webpack = require('webpack'); //to access built-in plugins
 var path = require('path');
 
 module.exports = {
@@ -13,5 +15,9 @@ module.exports = {
             exclude: /node_modules/, // ignore all files in the node_modules folder
             use: 'jshint-loader'
         }]
-    }
+    },
+    plugins: [
+        new webpack.ProgressPlugin(),
+        new HtmlWebpackPlugin({template: './src/index.html'})
+    ]
 };

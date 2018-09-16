@@ -1,4 +1,6 @@
-import _ from'lodash';
+// import _ from'lodash';
+
+const _ = require('lodash');
 
 function component() {
     let element = document.createElement('div');
