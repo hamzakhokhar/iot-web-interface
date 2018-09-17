@@ -10,11 +10,21 @@ module.exports = {
     },
     // Add the JSHint loader
     module: {
-        rules: [{
+        rules:
+        [{
             test: /\.src$/, // Run the loader on all .js files
             exclude: /node_modules/, // ignore all files in the node_modules folder
             use: 'jshint-loader'
+        }, {
+            test: /\.css$/,
+            use: ['style-loader', 'css-loader']
         }]
+    },
+    node: {
+        console: false,
+        fs: 'empty',
+        net: 'empty',
+        tls: 'empty'
     },
     plugins: [
         new webpack.ProgressPlugin(),
