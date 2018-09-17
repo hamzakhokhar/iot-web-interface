@@ -24,6 +24,9 @@ Client is where the user interface will be which we are choosing to implement as
 
 ### Project Links
 Github: https://github.com/hamzakhokhar/iot-web-interface/tree/master
+
 Trello: https://trello.com/cs4360
+
 Travis-CI: https://travis-ci.org/hamzakhokhar/iot-web-interface
+
 AWS: https://s3.amazonaws.com/iot-interface/index.html
