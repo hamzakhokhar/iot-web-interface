@@ -9,4 +9,4 @@ language: node_js
 node_js:
   - node
 before_deploy:
-  -mkdir -p dpl_cd_upload
+- mkdir -p dpl_cd_upload
