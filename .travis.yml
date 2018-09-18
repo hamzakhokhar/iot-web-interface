@@ -1,13 +1,13 @@
-deploy:
-  provider: s3
-  access_key_id: AKIAJYIYMIBE7PCGV72A
-  secret_access_key:
-    secure: lk7ZJoSWxg/Fumcatk3weP8FjRyqgkplXuTjo6w+dJVRvYSEFhkwZ7H+d75RYS72k5TPkne/ygq8gPg2+ghkNKwWhp8U5JldWAJ933RDY0MYW+zfzvlzp07mLlaxpVI0h2/xSxaLzeGvcJ9t3PBaPT4ZFEfng6ipsCW8sZ7CMruuog6McR9EQHN0XnQ2ZXNXCswtOjI51Rv2YuSeFvo8SqzDH+UysFJunQof1aCePl7Sxl1FZGHc5eb0OcrHCtbca1mucjnQQnSoTYArpty+JtE/yHKJsQ9w48SLVldQq4dV9PBrm2agU7J4BQKXIn8zoHthFkUfqmIcnBEv4Nu6+YC0m10e+5a04moQDZtZDCXdSDmhmAZT/N/6ghSBQzJMGa26IRiWa3KbEg4fj/NuLpxN5JpMLZwYNvRXSIBKbNqpl8xUh/XUqD17cvAV7sEbysO77OzPOrcSzFmb8tKEuZt/37Jg38aQiE7ZnmYDiC5CNt78P1MmI9n0Z1CgLJAWhZ9wQLxvBxTpS54HdQtyq+RsOxkHL9cYHXCCVPxO72iUmmXQO6VLz1DQQRh/vbqsv6bHyL8frjj5ZfXCs+8guFuzcO88ds0UJR0d0DQWZEbWsvwTlLwFRCLZGni9an1sN3wBk/lzLpqfR92OFGg6srLMBFOuIQqeNtTKpn/3ADU=
-  bucket: iot-interface
-  on:
-    repo: hamzakhokhar/iot-web-interface
-language: node_js
-node_js:
-- node
-before_deploy:
-- mkdir -p dpl_cd_upload
+#deploy:
+#  provider: s3
+#  access_key_id: AKIAJYIYMIBE7PCGV72A
+#  secret_access_key:
+#    secure: lk7ZJoSWxg/Fumcatk3weP8FjRyqgkplXuTjo6w+dJVRvYSEFhkwZ7H+d75RYS72k5TPkne/ygq8gPg2+ghkNKwWhp8U5JldWAJ933RDY0MYW+zfzvlzp07mLlaxpVI0h2/xSxaLzeGvcJ9t3PBaPT4ZFEfng6ipsCW8sZ7CMruuog6McR9EQHN0XnQ2ZXNXCswtOjI51Rv2YuSeFvo8SqzDH+UysFJunQof1aCePl7Sxl1FZGHc5eb0OcrHCtbca1mucjnQQnSoTYArpty+JtE/yHKJsQ9w48SLVldQq4dV9PBrm2agU7J4BQKXIn8zoHthFkUfqmIcnBEv4Nu6+YC0m10e+5a04moQDZtZDCXdSDmhmAZT/N/6ghSBQzJMGa26IRiWa3KbEg4fj/NuLpxN5JpMLZwYNvRXSIBKbNqpl8xUh/XUqD17cvAV7sEbysO77OzPOrcSzFmb8tKEuZt/37Jg38aQiE7ZnmYDiC5CNt78P1MmI9n0Z1CgLJAWhZ9wQLxvBxTpS54HdQtyq+RsOxkHL9cYHXCCVPxO72iUmmXQO6VLz1DQQRh/vbqsv6bHyL8frjj5ZfXCs+8guFuzcO88ds0UJR0d0DQWZEbWsvwTlLwFRCLZGni9an1sN3wBk/lzLpqfR92OFGg6srLMBFOuIQqeNtTKpn/3ADU=
+#  bucket: iot-interface
+#  on:
+#    repo: hamzakhokhar/iot-web-interface
+#language: node_js
+#node_js:
+#- node
+#before_deploy:
+#- mkdir -p dpl_cd_upload
