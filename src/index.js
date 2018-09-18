@@ -1,7 +1,6 @@
 var AWS = require('aws-sdk');
 var AWSIoTData = require('aws-iot-device-sdk');
 var AWSConfiguration = require('./config');
-var require = example.css;
 
 console.log('Loaded AWS SDK for JavaScript and AWS IoT SDK for Node.js');
 
